@@ -573,3 +573,13 @@ footer{
     color: var(--text);
     background-color: var(--light-bg);
 }
+
+.about-text {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.about-text p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
