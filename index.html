@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветы для особых моментов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Flora</a>
+
+            <ul class="nav-links">
+                <li> <a href="#">Главная</a></li>
+                <li> <a href="#about">О нас</a></li>
+                <li><a href="#catalog">Магазин</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li> <a href="#" class="cart"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Идеальный букет<br>для особенного человека</h1>
+                <p>Что-то необычное, чтобы заставить его улыбнуться</p>
+                <a href="#catalog" class="btn">Купить сейчас</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCZq6pFuEl6LUNA3u1C82mrBIkGnG-pA6quboG44smUrD2pAtYDb4zjvp&s=10" alt="Розовый букет">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>О нас</h2>
+                <p class="about-subtitle">Добро пожаловать в наш магазин цветов - место, где каждый цветок рассказывает свою историю</p>
+                <p>Мы не просто создаём букеты: мы создаём моменты, которые говорят от сердца! Каждый букет собран вручную, 
+                    продуман до мелочей и наполнен жизнью, готовый украсить чей-то день</p>
+                <div class="about-values">
+                    <div class="value-items">
+                        <h3>Наша миссия —</h3>
+                        <p>Превращать простые жесты в незабываемые воспоминания</p>
+                    </div>
+                    <div class="value-items">
+                        <h3>Наш источник —</h3>
+                        <p>Свежие и живые цветы от наших поставщиков</p>
+
+                    </div>
+                    <div class="value-items">
+                        <h3>Наши ценности —</h3>
+                        <p>Качество, Креативность, Радость — потому что каждый цветок заслуживает того, чтобы сиять</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/about-buket1.png" alt="Цветы">
+            </div>
+        </div>
+    </section>
+    <section id="catalog" class="catalog">
+        <h2>Наши букеты</h2>
+        <p class="catalog-subtitle">Свежие цветы для ваших близких</p>
+    <div class="catalog-grid">
+        <div class="product-card">
+            <img src="https://ir.ozone.ru/s3/multimedia-k/c1000/6891257504.jpg" alt="Букет №1">
+            <h3>Нежность</h3>
+            <p>Розы, эустома, зелень</p>
+            <span class="price">2 500 ₽</span>
+            <button class="btn-buy" data-product="Нежность">Купить</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1aBRb5ZDCO84VQxPG6yrZWN_TbY0CUNZRvv60aCt54ab2pj4FhFGoh88&s=10" alt="Букет №2">
+            <h3>Счастье</h3>
+            <p>Пионы, ромашки, лаванда</p>
+            <span class="price">3 200 ₽</span>
+            <button class="btn-buy" data-product="Счастье">Купить</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgMXc64LNtFe-Kd3NOM6E-r2meqEawYoZfxQSdNTkRjwN0biKIaOWW19Iv&s=10" alt="Букет №3">
+            <h3>Любовь</h3>
+            <p>Красные розы, гипсофила</p>
+            <span class="price">3 800 ₽</span>
+            <button class="btn-buy" data-product="Любовь">Купить</button>
+        </div>
+    </div>
+    </section>
+    <section id="contact" class="contact">
+    <div class="container">
+        <h2>Контакты</h2>
+        <p class="contact-subtitle">Мы здесь, чтобы помочь с заказами, доставкой и индивидуальными запросами по букетам</p>
+        
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h3>Телефон  WhatsApp</h3>
+                <p>+7 900 000-00-01</p>
+            </div>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p>email@rus.ru</p>
+            </div>
+            <div class="contact-item">
+                <h3>Часы работы</h3>
+                <p>Пн–Сб: 24 часа<br>Вс: 10:00 – 22:00</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <p>&copy; 2026 r.savon. Все права защищены.</p>
+    </footer>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3>Заказать букет</h3>
+        <p id="selectedProduct">Выберите букет в каталоге</p>
+        <form id="orderForm">
+            <input type="text" id="userName" placeholder="Ваше имя" required>
+            <input type="tel" id="userPhone" placeholder="Телефон" required>
+            <input type="text" id="userComment" placeholder="Комментарий к заказу">
+            <button type="submit">Отправить заказ</button>
+        </form>
+    </div>
+</div>
+
+<div id="successModal" class="modal">
+    <div class="modal-content success-modal">
+        <span class="close-success">&times;</span>
+        <div class="success-icon"></div>
+        <h3>Заказ принят!</h3>
+        <p id="successMessage">Спасибо! Мы свяжемся с вами в ближайшее время.</p>
+        <button id="successBtn" class="btn">Отлично!</button>
+    </div>
+</div>
+
+<script src="modal_window.js"></script>
+
+
+</body>
+</html>
