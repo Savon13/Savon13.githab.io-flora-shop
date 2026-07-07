@@ -17,6 +17,8 @@ body{
     line-height: 1.6;
     color: var(--text);
     background-color: var(--light-bg);
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 header {
