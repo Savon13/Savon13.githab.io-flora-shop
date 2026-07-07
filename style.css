@@ -20,6 +20,11 @@ body{
     overflow-x: hidden;
     max-width: 100vw;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 header {
     background: #eaf5ef;
@@ -171,7 +176,7 @@ footer{
     }
 
     .about{
-        padding: 3rem 1.2rem;
+        padding: 4rem 1.2rem;
     }
 
     .about-content{
@@ -181,12 +186,12 @@ footer{
     }
 
     .about-text h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .about-values{
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 1.2rem;
     }
 
     .about-image img{
@@ -203,11 +208,31 @@ footer{
         gap: 1rem;
         font-size: 0.9rem;
     }
+
+    .about {
+        padding: 3.5rem 1rem;
+    }
+
+    .about-text h2 {
+        font-size: 2.1rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .about-text > p {
+        font-size: 1.05rem;
+    }
+
+    .about-image img {
+        border-radius: 16px;
+    }
 }
 
 .about{
     background: var(--gradient-main);
-    padding: 5rem 2rem;
+    padding: 5rem 1.2rem;
     scroll-margin-top: 80px;
 }
 
@@ -223,7 +248,7 @@ footer{
 .about-text h2{
     font-size: 2.8rem;
     color: var(--text);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .about-subtitle{
