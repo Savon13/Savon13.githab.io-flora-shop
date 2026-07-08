@@ -227,6 +227,12 @@ footer{
     scroll-margin-top: 80px;
 }
 
+.about-text {
+    padding-left: 0.5rem !important;
+    padding-right: 0.8rem !important;
+    max-width: 100%;
+}
+
 .about-content{
     max-width: 1200px;
     margin: 0 auto;
@@ -596,4 +602,12 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.about-text p,
+.about-subtitle,
+.value-item p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
