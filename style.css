@@ -705,7 +705,6 @@ footer{
     font-size: 0.95rem;
 }
 
-/* ====================== ABOUT ====================== */
 .about {
     background: var(--gradient-main);
     padding: 5rem 1rem;
@@ -771,8 +770,6 @@ footer{
     border-radius: 18px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
-
-/* ====================== АДАПТИВ ====================== */
 
 @media (max-width: 768px){
     nav {
@@ -861,8 +858,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Остальные секции (catalog, contact, modal и т.д.) оставил без изменений */
-
 .catalog {
     padding: 5rem 2rem;
     background: var(--gradient-main);
@@ -943,7 +938,6 @@ html {
     box-shadow: 0 4px 15px rgba(107, 42, 58, 0.4);
 }
 
-/* ====================== MODALS ====================== */
 .modal {
     display: none;
     position: fixed;
