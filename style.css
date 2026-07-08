@@ -495,19 +495,6 @@ html {
     box-shadow: 0 6px 20px rgba(107, 42, 58, 0.4);
 }
 
-.close-success {
-    position: absolute;
-    right: 16px;
-    top: 10px;
-    font-size: 2rem;
-    cursor: pointer;
-    color: #999;
-}
-
-.close-success:hover {
-    color: #333;
-}
-
 @keyframes bounce {
     0%   { transform: scale(0); }
     50%  { transform: scale(1.2); }
@@ -591,4 +578,17 @@ footer{
     line-height: 1.6;
     color: var(--text);
     background-color: var(--light-bg);
+}
+
+.close-success {
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #999;
+}
+
+.close-success:hover {
+    color: #333;
 }
