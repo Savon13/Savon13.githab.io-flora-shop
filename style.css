@@ -186,9 +186,8 @@ footer{
     }
 
     .about-text {
-        padding: 0 1.2rem;
+        padding: 0 0.8rem;
         text-align: left;
-        max-width: 100%;
     }
 
     .about-text h2{
@@ -220,7 +219,7 @@ footer{
     }
     
     .about-text {
-        padding: 0 1rem;
+        padding: 0 0.6rem;
     }
 
     .about-text h2 {
@@ -253,6 +252,10 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+}
+
+.about-text {
+    max-width: 100%;
 }
 
 .about-text h2{
