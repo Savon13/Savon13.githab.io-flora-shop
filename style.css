@@ -19,11 +19,7 @@ body{
     background-color: var(--light-bg);
     overflow-x: hidden;
     max-width: 100vw;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    width: 100%;
 }
 
 header {
@@ -176,7 +172,7 @@ footer{
     }
 
     .about{
-        padding: 4rem 1.2rem;
+        padding: 3rem 1.2rem;
     }
 
     .about-content{
@@ -185,18 +181,13 @@ footer{
         text-align: center;
     }
 
-    .about-text {
-        padding: 0 0.8rem;
-        text-align: left;
-    }
-
     .about-text h2{
         font-size: 2.2rem;
     }
 
     .about-values{
         grid-template-columns: 1fr;
-        gap: 1.2rem;
+        gap: 1rem;
     }
 
     .about-image img{
@@ -213,35 +204,11 @@ footer{
         gap: 1rem;
         font-size: 0.9rem;
     }
-
-    .about {
-        padding: 4rem 1rem;
-    }
-    
-    .about-text {
-        padding: 0 0.6rem;
-    }
-
-    .about-text h2 {
-        font-size: 2.1rem;
-    }
-
-    .about-subtitle {
-        font-size: 1.15rem;
-    }
-
-    .about-text > p {
-        font-size: 1.05rem;
-    }
-
-    .about-image img {
-        border-radius: 16px;
-    }
 }
 
 .about{
     background: var(--gradient-main);
-    padding: 5rem 1.2rem;
+    padding: 5rem 2rem;
     scroll-margin-top: 80px;
 }
 
@@ -254,14 +221,10 @@ footer{
     align-items: center;
 }
 
-.about-text {
-    max-width: 100%;
-}
-
 .about-text h2{
     font-size: 2.8rem;
     color: var(--text);
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .about-subtitle{
@@ -319,6 +282,8 @@ footer{
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .catalog {
@@ -610,4 +575,23 @@ footer{
     line-height: 1.6;
     color: var(--text);
     background-color: var(--light-bg);
+}
+
+.about-text,
+.about-text p,
+.about-subtitle,
+.value-item p,
+.catalog p,
+.contact p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
