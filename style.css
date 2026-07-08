@@ -204,6 +204,10 @@ footer{
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
+
+    .about-content {
+    padding: 0 0.5rem;
+}
 }
 
 @media (max-width: 480px){
