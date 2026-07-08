@@ -629,7 +629,8 @@ footer{
 }
 
 .btn-wa,
-.btn-tg {
+.btn-tg,
+.btn-vk {
     display: inline-block;
     padding: 10px 24px;
     border-radius: 50px;
@@ -648,8 +649,14 @@ footer{
     background: linear-gradient(135deg, #0088cc, #006699);
 }
 
+.btn-vk{
+    background: linear-gradient(135deg, #0077FF, #0055CC);
+    color: white;
+}
+
 .btn-wa:hover,
-.btn-tg:hover {
+.btn-tg:hover,
+.btn-vk:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
