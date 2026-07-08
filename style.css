@@ -592,3 +592,64 @@ footer{
 .close-success:hover {
     color: #333;
 }
+
+/* ===== РАЗДЕЛИТЕЛЬ "или" ===== */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.divider span {
+    color: #888;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
+/* ===== КНОПКИ МЕССЕНДЖЕРОВ ===== */
+.messenger-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.messenger-buttons {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+}
+
+.btn-wa,
+.btn-tg {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-wa {
+    background: linear-gradient(135deg, #25D366, #1DA851);
+}
+
+.btn-tg {
+    background: linear-gradient(135deg, #0088cc, #006699);
+}
+
+.btn-wa:hover,
+.btn-tg:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
